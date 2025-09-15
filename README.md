@@ -14,7 +14,7 @@ The key focus areas include:
 - Deriving actionable business insights and recommendations
 
 ## 🗂️ Dataset Description
-[https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?resource=download]
+
 The project uses multiple CSV files provided by Olist, each representing a different entity:
 
 | Table Name                  | Description                                      | Key Relationships                                  |
@@ -27,6 +27,10 @@ The project uses multiple CSV files provided by Olist, each representing a diffe
 | `olist_order_payments_dataset` | Payment method and value per order         | Linked via `order_id`                              |
 | `olist_order_reviews_dataset`  | Customer reviews for each order            | Linked via `order_id`                              |
 | `olist_geolocation_dataset`   | Zip code–level location mapping             | Linked via zip code prefix                         |
+
+
+[https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?resource=download]
+
 
 ---
 
